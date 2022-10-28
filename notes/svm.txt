@@ -1,0 +1,22 @@
+Consider iris dataset
+Based on 4 features, determine species of iris flower.
+There are 3 species in total: Setosa, Vesicolor
+
+Now if you plot petal length vs petal width i.e only two features 
+There would be two groups, there are many ways to draw a boundary, so how to decide which boundary is best for classification 
+We can measure the distance of nearby data points to a line called as margin 
+Now higher the margin the better would be for the line to classify 
+So that's what SVM is about, it maximises the distance between nearby datapoints and line itself 
+The nearby data points are called support vectors 
+
+This was a case of 2D
+
+in 3D the boundary would be a plane 
+in case of n features, hyperplane i.e a plane in n-dimensions 
+
+hence support Vector machine algorithm draws a hyperplane in n-dimensional space such that it maximises margin between classification groups 
+
+Technical terms:
+- Gamma and 
+- regularisation(c in sklearn): some error and no overfitting 
+- Kernel: A transaformation in existing features so we can draw a decision boundary 
