@@ -1,0 +1,32 @@
+https://youtu.be/RtrBtAKwcxQ
+
+In ML, if u have just one model and we train the model using one dataset, 
+the model might get overfit or it might suffer from high variance
+
+overfit:
+Underfit:
+Variance:
+
+To tackle high variance problem caused due to overfitting, we can use ensemble learning 
+
+In ensemble learning, we train multiple models on same dataset and then while doing prediction, multiple models predict something, we finally combine all these outputs 
+
+Bagging and Boosting are two ensemble techniques used in ensemble learning
+
+Bagging or Bootstrap aggregation:
+
+Resampling with replacement: pick randomly pick any data point without looking at what we have in set i.e we can get same data points. In sklearn we do this by putting an args: random state in train_test_split function
+
+Now on these individual subsets, apply different Ml algorithm like logistic regression (classification) 
+and we take majority outcome
+
+these individual model are weak learners since since they are trained on subset of dataset
+when we combine the result, it is likely that it will not overfit 
+
+Random forest is one of the Bagging techniques
+
+In Bagging underlying model can be SVM, KNN, logistic regression, 
+whereas in Bagged Trees, each model is a tree 
+
+Dataset: pima-indians-diabetes.csv
+Based on certain features, predict if person has diabetes or not 

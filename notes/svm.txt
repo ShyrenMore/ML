@@ -1,3 +1,5 @@
+https://youtu.be/FB5EdxAGxQg
+
 Consider iris dataset
 Based on 4 features, determine species of iris flower.
 There are 3 species in total: Setosa, Vesicolor
