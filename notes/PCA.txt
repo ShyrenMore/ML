@@ -1,0 +1,18 @@
+https://youtu.be/8klqIM9UvAc
+
+Principal Component Analysis is used to reduce dimensions 
+code: handwritten digit classification
+where numbers are written by hand and we have to predict which number it is 
+
+dataset contains 8*8 grid hence there are 64 features or pixels
+boundary pixels will always be black 
+what if we get rid of these unimportant features 
+then 
+1) faster training and inference
+2) Data visualisation becomes easier 
+
+when in code we do 
+PCA(n_components=6)
+we will be extracting 6 most important components or features of the dataset 
+
+In code, we need to scale the features 
